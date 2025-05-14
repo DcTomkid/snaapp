@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  font-family: "Epilogue", sans-serif;
+  /* overflow: hidden; */
+}
+main {
+  margin: 4em 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.top-header {
+  margin: 1em 1em 0 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo, .header-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  color: #fff;
+}
+li a{
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  align-items: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 1em;
+  border: none;
+}
+.btn1 {
+  text-decoration: none;
+  list-style: none;
+  color: hsl(0, 0%, 41%);
+}
+.btn1:hover {
+  font-weight: 700;
+}
+.btn2 {
+  text-decoration: none;
+  list-style: none;
+  color: hsl(0, 0%, 41%);
+  border: 2px solid hsl(0, 0%, 41%);
+  padding: 15px 30px;
+  border-radius: 18px;
+}
+.btn2:hover{
+  background: #000;
+  color: #fff;
+  font-weight: 700;
+}
+.hero-img{
+  width: 500px;
+  height: 100%;
+  margin-top: 5em;
+  
+}
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 4em;
+}
+.section-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: first baseline;
+  gap: 4rem;
+  margin-right: 6em;
+}
+.section-text h1 {
+  font-size: 80px;
+  /* padding: 0 4em 0 0; */
+  font-weight: 700;
+  font-family: "Epilogue", sans-serif;
+
+}
+.section-text  p {
+   color: hsl(0, 0%, 41%);
+ }
+ .section-text-link{
+  text-decoration: none;
+  border: none;
+  color: hsl(0, 0%, 98%);
+  background-color: hsl(0, 0%, 8%);
+  padding: 15px 30px;
+  border-radius: 18px;
+ }
+ .section-text-link:hover{
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+ }
+ .section-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin-top: 3em;
+ }

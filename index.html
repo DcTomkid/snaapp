@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -17,36 +20,45 @@
 <body>
 
   <header>
-    <div>
-      <div>
+    <div class="top-header">
+      <div class="logo">
         <img src="./images/logo.svg" alt="#">
         <div>
           <ul>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Company</a></li>
+            <li><a href="#">Features <img src="./images/icon-arrow-down.svg" alt="#"></a></li>
+            <li><a href="#">Company <img src="./images/icon-arrow-down.svg" alt="#"> </a></li>
             <li><a href="#">Careers</a></li>
             <li><a href="#">About</a></li>
           </ul>
         </div>
       </div>
-      <div>
-        <button>Login</button>
+      <div class="header-btn">
+        <a href="#" class="btn1">Login</a>
         <div>
-          <button>Register</button>
+          <a href="#" class="btn2">Register</a>
         </div>
       </div>
     </div>
   </header>
 
   <main>
-    <div>
-      <div>
+    <div class="section">
+      <div class="section-text">
         <h1>Make remote work</h1>
         <p>Get your team in sync, no matter your location. Streamline processes,
         create team rituals, and watch productivity soar.</p>
-        <button>Learn more</button>
+        <a href="#" class="section-text-link">Learn more</a>
+        <div class="section-icon">
+          <div><img src="./images/client-databiz.svg" alt="#"></div>
+          <div><img src="./images/client-audiophile.svg" alt="#"></div>
+          <div><img src="./images/client-meet.svg" alt="#"></div>
+          <div><img src="./images/client-maker.svg" alt="#"></div>
+        </div>
       </div>
-      <div></div>
+     
+        <img src="./images/image-hero-desktop.png" width="50px" height="10px" alt="" class="hero-img">
+      </div>
+      
     </div>
   </main>
   <!--
